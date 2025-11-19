@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations - Discover Your Perfect Getaway</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">TravelHub</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover Your Perfect Travel Destination</h1>
+            <p class="hero-subtitle">Explore beaches, temples, and cities around the world</p>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for beach, temple, city..." />
+                <button id="searchBtn">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Results Section -->
+    <section id="results" class="results-section">
+        <div class="container">
+            <h2 id="resultsTitle">Popular Destinations</h2>
+            <div id="destinationCards" class="cards-grid"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            
+            <div class="about-content">
+                <div class="company-overview">
+                    <h3>Our Mission</h3>
+                    <p>We help travelers discover amazing destinations worldwide. Our platform connects you with the best beaches, temples, and cities, making travel planning effortless and inspiring.</p>
+                </div>
+
+                <h3>Our Team</h3>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-image">👨‍💼</div>
+                        <h4>John Smith</h4>
+                        <p class="role">CEO & Founder</p>
+                        <p>Travel enthusiast with 15 years of experience in tourism industry.</p>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-image">👩‍💻</div>
+                        <h4>Sarah Johnson</h4>
+                        <p class="role">Head of Operations</p>
+                        <p>Expert in destination curation and customer experience.</p>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-image">👨‍🎨</div>
+                        <h4>Mike Chen</h4>
+                        <p class="role">Creative Director</p>
+                        <p>Passionate about showcasing destinations through visual storytelling.</p>
+                    </div>
+                </div>
+
+                <h3>Our Journey</h3>
+                <ul class="timeline">
+                    <li><strong>2020:</strong> Company founded with a vision to simplify travel discovery</li>
+                    <li><strong>2021:</strong> Launched platform with 100+ destinations</li>
+                    <li><strong>2023:</strong> Expanded to 500+ destinations across 50 countries</li>
+                    <li><strong>2025:</strong> Serving 1M+ travelers worldwide</li>
+                </ul>
+
+                <h3>Our Offices</h3>
+                <div id="map" class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9476519598093!2d-73.99185368459395!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1234567890" 
+                            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div id="formMessage" class="form-message"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TravelHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
