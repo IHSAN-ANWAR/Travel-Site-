@@ -1,0 +1,74 @@
+[
+  {
+    "type": "beach",
+    "name": "Copacabana Beach",
+    "location": "Rio de Janeiro, Brazil",
+    "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=400",
+    "description": "Famous Brazilian beach with golden sands and vibrant culture.",
+    "timezone": "America/Sao_Paulo"
+  },
+  {
+    "type": "beach",
+    "name": "Bondi Beach",
+    "location": "Sydney, Australia",
+    "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=400",
+    "description": "Iconic Australian beach perfect for surfing and sunbathing.",
+    "timezone": "Australia/Sydney"
+  },
+  {
+    "type": "beach",
+    "name": "Maldives",
+    "location": "Indian Ocean",
+    "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=400",
+    "description": "Paradise islands with crystal clear waters and luxury resorts.",
+    "timezone": "Indian/Maldives"
+  },
+  {
+    "type": "temple",
+    "name": "Angkor Wat",
+    "location": "Siem Reap, Cambodia",
+    "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?w=400",
+    "description": "Largest religious monument in the world, stunning ancient temple complex.",
+    "timezone": "Asia/Phnom_Penh"
+  },
+  {
+    "type": "temple",
+    "name": "Taj Mahal",
+    "location": "Agra, India",
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=400",
+    "description": "Magnificent white marble mausoleum, symbol of eternal love.",
+    "timezone": "Asia/Kolkata"
+  },
+  {
+    "type": "temple",
+    "name": "Borobudur",
+    "location": "Java, Indonesia",
+    "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=400",
+    "description": "Ancient Buddhist temple with intricate stone carvings.",
+    "timezone": "Asia/Jakarta"
+  },
+  {
+    "type": "city",
+    "name": "Paris",
+    "location": "France",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400",
+    "description": "City of lights featuring the Eiffel Tower and world-class museums.",
+    "timezone": "Europe/Paris"
+  },
+  {
+    "type": "city",
+    "name": "Tokyo",
+    "location": "Japan",
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400",
+    "description": "Modern metropolis blending tradition with cutting-edge technology.",
+    "timezone": "Asia/Tokyo"
+  },
+  {
+    "type": "city",
+    "name": "New York",
+    "location": "USA",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=400",
+    "description": "The city that never sleeps, home to iconic landmarks and culture.",
+    "timezone": "America/New_York"
+  }
+]
